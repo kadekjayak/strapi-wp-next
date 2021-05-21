@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import {getImgProps} from '../../helpers/utilities';
+import {getImgProps} from '../../../helpers/utilities';
 import {createRef} from 'react';
 
 export default function Slider( props ){

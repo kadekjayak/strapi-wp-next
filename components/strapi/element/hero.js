@@ -1,4 +1,4 @@
-import {getImgProps} from '../../helpers/utilities';
+import {getImgProps} from '../../../helpers/utilities';
 
 export default function Hero( props ){
     return (

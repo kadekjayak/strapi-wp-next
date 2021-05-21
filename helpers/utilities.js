@@ -27,14 +27,3 @@ export function resolveMediaUrl( url ){
 
     return result;
 }
-
-import components from '../components';
-export function renderStrapiComponent(data){
-    const StrapiComponent = components[ data.__component ];
-
-    if( ! StrapiComponent ) {
-        return null;
-    }
-
-    return <StrapiComponent {...data} />
-}

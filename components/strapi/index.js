@@ -3,7 +3,6 @@ const components = {
     'element.slider': require('./element/slider').default
 }
 
-
 export function renderStrapiComponent(data){
     const StrapiComponent = components[ data.__component ];
 
